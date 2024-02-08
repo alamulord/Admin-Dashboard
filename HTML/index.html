@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Admin Dashboard || Abdulsamad</title>
+		<link rel="stylesheet" href="/CSS/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+			integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<!-- Navabar -->
+		<section id="Navigator">
+			<div class="container">
+				<div class="navigator">
+					<ul>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-house-heart"></i></span>
+								<span class="title">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-shop"></i></span>
+								<span class="title">Workshop</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-cart"></i></span>
+								<span class="title">Producct</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-envelope"></i></span>
+								<span class="title">Message</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-gear-fill"></i></span>
+								<span class="title">Settings</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="icon"><i class="bi bi-box-arrow-left"></i></span>
+								<span class="title">Logout</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="main">
+			<div class="main">
+				<div class="topbar">
+					<div class="toggle">
+						<i class="bi bi-list"></i>
+					</div>
+					<div class="search">
+						<label>
+							<input type="text" />
+							<i class="bi bi-search"></i>
+						</label>
+					</div>
+					<div class="user">
+						<img
+							src="/Asset/images/User image/photo-1633332755192-727a05c4013d.avif"
+							alt="" />
+					</div>
+				</div>
+
+				<!-- cards -->
+				<div class="cardBox">
+					<div class="card">
+						<div>
+							<div class="numbers">1,505</div>
+							<div class="cardName">Sales</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-receipt"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">22,505</div>
+							<div class="cardName">Income</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-cash-coin"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">55,505</div>
+							<div class="cardName">Profit</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-coin"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">444</div>
+							<div class="cardName">Last month Sales</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-calendar2"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">45,555</div>
+							<div class="cardName">Views</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-eye"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">9k</div>
+							<div class="cardName">Message</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-chat-dots"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">150</div>
+							<div class="cardName">Loss</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-exclamation-octagon"></i>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">150k</div>
+							<div class="cardName">views</div>
+						</div>
+						<div class="iconBx">
+							<i class="bi bi-eye"></i>
+						</div>
+					</div>
+				</div>
+				<!-- ========= Details ============= -->
+				<div class="details">
+					<div class="recentOrder">
+						<div class="cardHead">
+							<h2>Recent Orders</h2>
+							<a href="#" class="btn">View All</a>
+						</div>
+						<table>
+							<thead>
+								<tr>
+									<td>Name</td>
+									<td>Price</td>
+									<td>Payment</td>
+									<td>Status</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Student Backpack</td>
+									<td>$900</td>
+									<td>Paid</td>
+									<td><span class="status delivered">Delivered</span></td>
+								</tr>
+								<tr>
+									<td>Side-bag</td>
+									<td>$109</td>
+									<td>Pending</td>
+									<td><span class="status pending">Progress</span></td>
+								</tr>
+								<tr>
+									<td>Dell Latitude 658L</td>
+									<td>$129</td>
+									<td>Pending</td>
+									<td><span class="status pending">Progress</span></td>
+								</tr>
+								<tr>
+									<td>Samsung S9 edge plus</td>
+									<td>$330</td>
+									<td>Denied</td>
+									<td><span class="status return">Canceled</span></td>
+								</tr>
+								<tr>
+									<td>Star Refrigerator</td>
+									<td>$1200</td>
+									<td>Paid</td>
+									<td><span class="status delivered">Delivered</span></td>
+								</tr>
+								<tr>
+									<td>Samsung Plasma wide 234 TV</td>
+									<td>$1299</td>
+									<td>Pending</td>
+									<td><span class="status pending">Progress</span></td>
+								</tr>
+								<tr>
+									<td>American Stove</td>
+									<td>$500k</td>
+									<td>Pending</td>
+									<td><span class="status pending">Progress</span></td>
+								</tr>
+								<tr>
+									<td>HP Pavilion d3009</td>
+									<td>$33k</td>
+									<td>Paid</td>
+									<td><span class="status delivered">Delivered</span></td>
+								</tr>
+								<tr>
+									<td>Extention(socket)</td>
+									<td>$1299</td>
+									<td>Pending</td>
+									<td><span class="status pending">Progress</span></td>
+								</tr>
+								<tr>
+									<td>Oraimo PowerBank 4000amh</td>
+									<td>$440</td>
+									<td>Refunded</td>
+									<td><span class="status return">Returned</span></td>
+								</tr>
+								<tr>
+									<td>Nike ultra-Sound-Bass Sneakers</td>
+									<td>$100k</td>
+									<td>Paid</td>
+									<td><span class="status delivered">Delivered</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<!-- Customers -->
+					<div class="recentCustomers">
+						<div class="cardHead">
+							<h2>Recent Orders</h2>
+						</div>
+
+						<table>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Samson <br />
+										<span>Ilorin</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/photo-1633332755192-727a05c4013d.avif"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										David <br />
+										<span>Lagos</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/photo-1438761681033-6461ffad8d80.avif"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Elizabeth<br />
+										<span>Cameroon</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/photo-1633332755192-727a05c4013d.avif"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Jone Diva <br />
+										<span>Ogbomosho</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img src="/Asset/images/User image/photo-1560250097-0b93528c311a.avif" alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Styles Mike<br />
+										<span>Ilorin</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Jake Sully <br />
+										<span>Ilorin</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img src="/Asset/images/User image/photo-1560250097-0b93528c311a.avif" alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Samson <br />
+										<span>Ilorin</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img src="/Asset/images/User image/photo-1546961329-78bef0414d7c.avif" alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Mary Maynes <br />
+										<span>Lokoja</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/photo-1633332755192-727a05c4013d.avif"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Sherif <br />
+										<span>Ibadan</span>
+									</h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="/Asset/images/User image/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+											alt="" />
+									</div>
+								</td>
+								<td>
+									<h4>
+										Abdulsubur <br />
+										<span>Osogbo</span>
+									</h4>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<!-- end of main -->
+			</div>
+		</section>
+
+		<script src="/JAVASCRIPT/index.js"></script>
+	</body>
+</html>
